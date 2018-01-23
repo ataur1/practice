@@ -28,4 +28,5 @@ I've tried to come up but it's drowning me to know"""
 why_not_me=lyric.split()
 #print(why_not_me),
 print(lyrics_frequency(why_not_me))
+print(why_not_me.count(str(input('enter the word to find the number of occurance (warning: its case sensitive)'))))
 
